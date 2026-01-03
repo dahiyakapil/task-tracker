@@ -71,15 +71,7 @@ npm run build
 npm run preview
 ```
 
-Running both at once
----------------------
-- Open two terminals and run backend and frontend separately (recommended).
 
-```bash
-npm install -g concurrently
-cd backend && npm install
-cd ../frontend && npm install
-concurrently "cd backend && npm run dev" "cd frontend && npm run dev"
 ```
 
 Project structure (high level)
